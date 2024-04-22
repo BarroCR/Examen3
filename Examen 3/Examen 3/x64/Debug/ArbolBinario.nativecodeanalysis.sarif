@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/universidad/estructuras de datos/proyectos c++/examen 3/examen 3/arbolbinario.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c388dfb5af450452e891136b1b13408be19eb31c09b3f13115294740e37c7c54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/universidad/estructuras de datos/proyectos c++/examen 3/examen 3/arbolbinario.h"
+          },
+          "hashes": {
+            "sha-256": "f009e53bb73e8cca6e09b42ab2ededcb30ee0d9bddef02ef79ec0d851d8bd112"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/universidad/estructuras de datos/proyectos c++/examen 3/examen 3/std.h"
+          },
+          "hashes": {
+            "sha-256": "1836d6d3ebb4a66d6f762f3274be8e7aa4b910f6037c3d91b76b53cef24982a5"
+          }
+        }
+      ]
+    }
+  ]
+}

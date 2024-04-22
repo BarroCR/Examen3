@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Universidad\Estructuras de Datos\Proyectos C++\Examen 3\Examen 3\</FILEPATH>
+      <FILENAME>interfaz.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "interfaz::Question::id" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>interfaz::Question::{ctor}</FUNCTION>
+    <DECORATED>??0Question@interfaz@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>interfaz::Question::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Universidad\Estructuras de Datos\Proyectos C++\Examen 3\Examen 3\</FILEPATH>
+      <FILENAME>interfaz.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "interfaz::Question::parent" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>interfaz::Question::{ctor}</FUNCTION>
+    <DECORATED>??0Question@interfaz@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>interfaz::Question::parent</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Universidad\Estructuras de Datos\Proyectos C++\Examen 3\Examen 3\</FILEPATH>
+      <FILENAME>interfaz.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "interfaz::Question::value" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>interfaz::Question::{ctor}</FUNCTION>
+    <DECORATED>??0Question@interfaz@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>interfaz::Question::value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
