@@ -1,28 +1,25 @@
 #include"std.h"
+#include"Question.h"
 class ArbolBinario {
 
 private:
     struct Nodo {
-        int id;
-        string question; 
-        int parent;
-        bool value; //true izquierda , false derecha 
-
+        Question question;
         Nodo* left;
         Nodo* right;
 
-        Nodo(int  id, string question, int parent, bool value) : id(0), question(""), parent(0), value(NULL), left(nullptr), right(nullptr) {}
+        Nodo(Question question) :  question(question), left(nullptr), right(nullptr) {}
     };
 
     Nodo* raiz;
-    void insertarElemento(Nodo*& nodo, int id, string question, int parent, bool value);
-    Nodo* buscarElemento(Nodo* nodo, int id);
+    void insertarElemento(Nodo*& nodo,Question question);
+    Nodo* buscarElemento(Nodo* nodo, Question question);
   
 public:
     ArbolBinario();
     ~ArbolBinario();
-    void insertarElemento(int id, string qustion, int parent, bool value);
-    Nodo* buscarElemento(int parentValue);
+    void insertarElemento(Question question);
+    Nodo* buscarElemento(Question question);
 
     
 };

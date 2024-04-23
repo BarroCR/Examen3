@@ -1,17 +1,19 @@
 #include "interfaz.h"
+
 void interfaz::menu()
 {
 
     ArbolBinario arbol;
+    Question* pregunta;
     ifstream fin("Preguntas.csv", ios::in); // Abrir el archivo en modo lectura
-
+    list<Question*> questionList;
     if (!fin) {
         cout << "Unable to open file";
     }
 
     list<vector<string>> lista; // Una lista de vectores para almacenar cada línea dividida
     string line;
-    list<Question> preguntas;
+    
 
     while (getline(fin, line)) {
         stringstream ss(line);
@@ -48,20 +50,13 @@ void interfaz::menu()
 
         cout << auxID << preg << auxParent << endl;
 
-
-        arbol.insertarElemento(auxID, preg, auxParent, siono);
+        pregunta = new Question(auxID,preg,auxParent,siono);
+        
+        arbol.insertarElemento(*pregunta);
 
     }
     
     cout << "hola" << endl;
     fin.close(); // Cerrar el archivo
-
-
-  
-   
-
-
-
-
 
 }
