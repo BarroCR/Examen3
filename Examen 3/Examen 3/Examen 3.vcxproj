@@ -21,12 +21,14 @@
   <ItemGroup>
     <ClInclude Include="ArbolBinario.h" />
     <ClInclude Include="interfaz.h" />
+    <ClInclude Include="Question.h" />
     <ClInclude Include="std.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArbolBinario.cpp" />
     <ClCompile Include="interfaz.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Question.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
