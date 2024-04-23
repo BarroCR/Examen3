@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\ArbolBinario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\interfaz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\interfaz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\ArbolBinario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\Question.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\interfaz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\interfaz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|solutionrelative:Examen 3\\Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21DF1E26-3DB1-451A-9472-6EF5B6E096A6}|Examen 3\\Examen 3.vcxproj|D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\std.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -52,20 +52,20 @@
               "RelativeDocumentMoniker": "Examen 3\\Question.cpp",
               "ToolTip": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\Question.cpp",
               "RelativeToolTip": "Examen 3\\Question.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADMAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-22T23:01:19.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "interfaz.cpp",
               "DocumentMoniker": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\interfaz.cpp",
               "RelativeDocumentMoniker": "Examen 3\\interfaz.cpp",
               "ToolTip": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\interfaz.cpp",
               "RelativeToolTip": "Examen 3\\interfaz.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAUwDEAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-22T22:46:35.507Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "Examen 3\\ArbolBinario.cpp",
               "ToolTip": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\ArbolBinario.cpp",
               "RelativeToolTip": "Examen 3\\ArbolBinario.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAqwEEAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-22T01:49:35.064Z",
               "EditorCaption": ""
@@ -93,8 +93,7 @@
               "RelativeToolTip": "Examen 3\\std.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-22T01:51:01.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T01:51:01.017Z"
             },
             {
               "$type": "Document",
@@ -104,20 +103,20 @@
               "RelativeDocumentMoniker": "Examen 3\\ArbolBinario.h",
               "ToolTip": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\ArbolBinario.h",
               "RelativeToolTip": "Examen 3\\ArbolBinario.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-22T01:49:35.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Question.h",
               "DocumentMoniker": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\Question.h",
               "RelativeDocumentMoniker": "Examen 3\\Question.h",
               "ToolTip": "D:\\Universidad\\Estructuras de Datos\\Proyectos C\u002B\u002B\\Examen3\\Examen 3\\Examen 3\\Question.h",
               "RelativeToolTip": "Examen 3\\Question.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAYAAAABAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-22T22:59:31.007Z",
               "EditorCaption": ""
@@ -132,8 +131,7 @@
               "RelativeToolTip": "Examen 3\\interfaz.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-22T02:05:11.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T02:05:11.431Z"
             },
             {
               "$type": "Document",
@@ -145,8 +143,7 @@
               "RelativeToolTip": "Examen 3\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-22T04:16:22.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T04:16:22.351Z"
             }
           ]
         }

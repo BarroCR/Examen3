@@ -20,7 +20,7 @@ public:
     ~ArbolBinario();
     void insertarElemento(Question question);
     Nodo* buscarElemento(Question question);
-
+    void hacerPregunta();
     
 };
 

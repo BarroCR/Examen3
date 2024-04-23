@@ -15,41 +15,31 @@ void ArbolBinario::insertarElemento(Nodo*& nodo, Question question)
     if (nodo == nullptr) {
         nodo = new Nodo(question); // Si el nodo es nulo, crea un nuevo nodo con el dato proporcionado.
     }
-    else if (question.getIsLeft()==true) {
-        insertarElemento(nodo->right, question);// Si el dato es menor que el dato del nodo actual, recursivamente inserta en el subárbol izquierdo.
+    else if (question.getId()<nodo->question.getId()) {
+        insertarElemento(nodo->left, question);// Si el dato es menor que el dato del nodo actual, recursivamente inserta en el subárbol izquierdo.
     }
-    else if (question.getIsLeft() == false) {
-        insertarElemento(nodo->left, question); // Si el dato es mayor que el dato del nodo actual, recursivamente inserta en el subárbol derecho.
+    else  {
+        insertarElemento(nodo->right, question); // Si el dato es mayor que el dato del nodo actual, recursivamente inserta en el subárbol derecho.
     }
 }
 
 void ArbolBinario::insertarElemento(Question question)
 {
-    Nodo* parentNode = buscarElemento(raiz, question);
-    if (parentNode != nullptr) {
-        cout<<parentNode->question.getId()<<endl;
-        insertarElemento(parentNode, question);
-    }
-    
-    else {
-        cout << "Nodo padre no encontrado. Insertando como nodo raíz." << endl;
-        insertarElemento(raiz, question);
-    }
+    insertarElemento(raiz, question);
 }
 
 ArbolBinario::Nodo* ArbolBinario::buscarElemento(Nodo* nodo, Question question) {
 
-    if (nodo == nullptr || nodo->question.getId() == question.getParent()) {
+    if (nodo == nullptr || nodo->question.getId() == question.getId() ){
         return nodo;
     }
-
-    if (question.getIsLeft()==true) {
-        cout << question.getParent() << " " << nodo->question.getId() << endl;
-        return buscarElemento(nodo->right, question);
+    else if (question.getId()<nodo->question.getId()) {
+       
+       return buscarElemento(nodo->left, question);
     }
     else {
-        cout << question.getParent() << " " << nodo->question.getId() << endl;
-        return buscarElemento(nodo->left, question);
+        
+        return buscarElemento(nodo->right, question);
     }
 }
 
@@ -64,22 +54,37 @@ ArbolBinario::Nodo* ArbolBinario::buscarElemento(Question question) {
     }
 }
 
-//ArbolBinario::Nodo* ArbolBinario::buscarElemento(Nodo* nodo, Question question) {
-//    
-//    if (nodo == nullptr || nodo->question.getId() == question.getParent()) {
-//        return nodo;
-//    }
-//
-//    if (question.getParent() < nodo->question.getId()) {
-//        cout << question.getParent() << " " << nodo->question.getId() << endl;
-//        return buscarElemento(nodo->right, question);
-//        
-//    }
-//    else {
-//        cout << question.getParent() << " " << nodo->question.getId() << endl;
-//        return buscarElemento(nodo->left, question);
-//    }
-//}
+void ArbolBinario::hacerPregunta() {
+    Nodo* nodoActual = raiz;
+    cout << "Bienvenido al chatbot del examen 3 de la Universidad Latina" << endl;
+    while (nodoActual != nullptr and nodoActual->question.getIsQuestion() == true) {
+        cout << nodoActual->question.getQuestion() << " (si/no): ";
+        string respuesta;
+        cin >> respuesta;
+
+        if (respuesta == "si") {
+            nodoActual = nodoActual->right;
+        }
+        else if (respuesta == "no") {
+            nodoActual = nodoActual->left;
+        }
+        else {
+            cout << "Respuesta inválida. Por favor, responde con 'si' o 'no'." << std::endl;
+        }
+
+        
+    }if (nodoActual != nullptr) {
+        cout << nodoActual->question.getQuestion() << endl;
+
+    }
+    else {
+        cout << "No hay respuestas para tu respuesta " << endl;
+    }
+    cout << "Gracias por usar el chat bot!" << endl;
+
+    cout << "¡Fin del chat!" << std::endl;
+}
+
 
 
 

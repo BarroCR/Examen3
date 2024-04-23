@@ -6,22 +6,20 @@ class Question
 private:
 	int id;
 	string question;
-	int parent;
-	bool isLeft;
+	bool isQuestion;
 public:
-	Question(int id,string question,int parent,bool isLeft);
+	Question(int id,string question,bool isQuestion);
 	Question();
 	~Question();
 
 	void setId(int id);
 	void setQuestion(string question);
-	void setParent(int parent);
-	void setIsLeft(bool isLeft);
+	void setIsQuestion(bool isLeft);
 
 	int getId();
+	
 	string getQuestion();
-	int getParent();
-	bool getIsLeft();
+	bool getIsQuestion();
 
 
 

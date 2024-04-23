@@ -1,11 +1,11 @@
 #include "Question.h"
 
-Question::Question(int id, string question, int parent, bool isLeft)
+Question::Question(int id, string question, bool isLeft)
 {
 	this->id = id;
 	this->question = question;
-	this->parent = parent;
-	this->isLeft = isLeft;
+
+	this->isQuestion = isLeft;
 }
 
 Question::Question()
@@ -26,14 +26,11 @@ void Question::setQuestion(string question)
 	this->question = question;
 }
 
-void Question::setParent(int parent)
-{
-	this->parent = parent;
-}
 
-void Question::setIsLeft(bool isLeft)
+
+void Question::setIsQuestion(bool isLeft)
 {
-	this->isLeft = isLeft;
+	this->isQuestion = isLeft;
 }
 
 int Question::getId()
@@ -46,12 +43,9 @@ string Question::getQuestion()
 	return question;
 }
 
-int Question::getParent()
-{
-	return parent;
-}
 
-bool Question::getIsLeft()
+
+bool Question::getIsQuestion()
 {
-	return isLeft;
+	return isQuestion;
 }
